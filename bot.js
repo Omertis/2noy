@@ -251,7 +251,7 @@ if (message.content.startsWith(PREFIX + 'setavatar')) {
 }
 });
 
-let prefix = '2';
+let prefix = '5';
 
 client.on('message', msg => {
 	if (msg.content.startsWith(prefix + 'help')) {
@@ -279,7 +279,7 @@ client.on('message', message => {
   // we ignore it
   if (!message.guild) return;
 
-  if (message.content === '2join') {
+  if (message.content === '5join') {
     // Only try to join the sender's voice channel if they are in one themselves
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
