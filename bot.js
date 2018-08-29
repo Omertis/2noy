@@ -251,7 +251,7 @@ if (message.content.startsWith(PREFIX + 'setavatar')) {
 }
 });
 
-let prefix = '1eef';
+let prefix = '2';
 
 client.on('message', msg => {
 	if (msg.content.startsWith(prefix + 'help')) {
@@ -266,7 +266,7 @@ msg.author.send("Commands Music " + `  **
 :headphones:  ${prefix}pause |لايقاف الاغنية الحالية مؤقتا
 :headphones:  ${prefix}resume |لاكمال الاغنية الحالية
 :headphones:  ${prefix}join |لتعليق البوت فالروم
-for help = <@426471752877604874> <@452191687159185409>
+for help = <@466858375544832001> 
 **`);
  }
 });
